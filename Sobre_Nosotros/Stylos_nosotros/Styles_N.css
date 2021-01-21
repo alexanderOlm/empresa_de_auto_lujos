@@ -1,0 +1,165 @@
+body{
+    padding: 60PX 0 0  0;
+    margin: 0;
+    top: 0;
+    
+
+}
+.logo_inicial {
+    display:block;
+    margin:auto;
+    width: 15%;
+}
+
+.lojo_laterales{
+    padding: 0 50px 0 0;
+    margin: 60px;
+    width: 50%;
+    height: 47px;
+    display: inline;
+    align-items: center;
+
+}
+
+ul{
+    background: linear-gradient(to left ,#086CDE, #1cb5e0);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+li{flex: auto;}
+
+li :hover{
+    background-color:#1b6a80;    
+}
+.años
+{ 
+	margin: 2em 0 0 11em;
+	}
+.nosotro
+{
+	width: 502px;
+    margin: 0 0 0 12em;
+	
+	}
+.gerente_g
+{
+	margin: 3em 0 0 30em;
+	
+	
+	}
+.llantas
+{
+	 display: flex;
+  flex-direction: column;
+	
+	}
+.marcas
+{
+	 margin: 2em 2em 2em 2em;
+	}
+.LLatas_t
+{
+	margin:0  0 0 9em;
+	
+	}
+	
+.AROS
+{
+	display: flex;
+  flex-direction: column;
+   position: absolute;
+  left: 660px;
+  top: 185px;
+  z-index: 2;
+	}
+.LLatas_aros_ase
+{
+    margin: 0 0 0 6em;	
+    }
+    .informacion
+    {
+        background:#EEF0E4;
+        line-height: 1em;
+        text-align: center;
+        font-size: 21px;
+        padding:5em 1em 0 5em;
+        display:flex;
+    }
+    .texto_de_los_iconos{
+    
+        color:#605E6E;
+        }
+    .parrafo
+    {
+        margin: 0;	
+    }
+    .lo_mejores
+    {
+        margin:0 0 0 8em;
+        }
+    .imagenes_C
+    {
+        background:#CE2026;
+        display:flex;
+        padding:0 0 0  200px ;	
+        margin: 0px ;
+    }
+    .pie_de_paguina
+    {
+        background:#2F2E2E;
+        display:flex;
+        color:White;
+        font-size:15px;
+    }
+        
+    .redes
+    {
+        width:100px;
+        
+        
+        }
+    .Quiteño
+    {
+        margin: 0 5em 0 5em;
+        width:400px;
+        
+        }
+    .lista
+    {
+        display:none;
+        }
+        
+    
+    .lista_de_productos
+    {
+        display: block;
+        width: 250px;
+        margin: 0 56px 0 5px;
+        font-size: 13px;
+        border: solid #242323;
+        background: #312e2e;
+        }
+    .marca_de_la_paguina
+    {
+        background:#242323;
+        margin:0 0 0 0;
+        padding:0 0 0 0;
+        text-align:center;
+        color:#A0A09F;
+        
+        }
+.QUE_HACER{
+    display: inline-block;
+    background: white;
+
+}

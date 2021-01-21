@@ -1,0 +1,249 @@
+body{
+    padding: 60PX 0 0  0;
+    margin: 0;
+    top: 0;
+    
+
+}
+.logo_inicial {
+    display:block;
+    margin:auto;
+    width: 15%;
+}
+
+.lojo_laterales{
+    padding: 0 50px 0 0;
+    margin: 0;
+    width: 50%;
+    height: 47px;
+    display: inline;
+    align-items: center;
+
+}
+
+ul{
+    background: linear-gradient(to left ,#086CDE, #1cb5e0);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+li{flex: auto;}
+
+li :hover{
+    background-color:#1b6a80;    
+}
+.correo
+{
+	width:100%;
+		
+}
+/*Para comentar*/
+.comenario
+{ 
+    height: 134px;
+    width: 327px;
+    margin: 5em 0 0 2em;
+	
+	}
+.CONTATANOS_AHORA_MISMO
+{
+	position: absolute;
+    top: 400px;
+    left: 168px;
+    z-index: 2;
+}
+
+.ponerse_a_lado
+
+{
+	display:flex;
+	color: black;
+	
+	
+	}
+.MISMO
+{
+	padding: 9px;
+    margin: 0 0 0 7em;
+    font-size: 38px;
+    color: red;	
+}
+.titulos2
+{
+	color:#aba7a7;	
+	
+	
+	}
+.imput
+{
+	margin: 2em 0 0 5em;
+	
+	
+	}
+	.pie_de_paguina
+{
+	background:#2F2E2E;
+	display:flex;
+	color:White;
+	font-size:15px;
+}
+	
+.redes
+{
+	width:100px;
+	
+	
+	}
+.Quiteño
+{
+	margin: 0 5em 0 5em;
+	width:400px;
+	
+	}
+.lista
+{
+	display:none;
+	}
+
+.lista_de_productos
+{
+
+    width: 250px;
+    margin: 0 56px 0 5px;
+    font-size: 13px;
+    border: solid #2F2E2E;
+	}
+.marca_de_la_paguina
+{
+	background:#242323;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	text-align:center;
+	color:#A0A09F;
+	
+	}
+/*nosotros*/
+.informacion{
+    display: flex;
+}
+
+.Comfia
+{
+    line-height: 1em;
+    text-align: center;
+    font-size: 21px;
+    padding:5em 1em 0 5em;
+	width:500px;
+	}
+	.parrafo
+	{
+	 color:#aba7a7;
+	 }
+.reservas_imagen
+{
+	margin:7em 0 0 5em;
+	line-height: 1em;
+    text-align: center;
+    background:rgb(3, 77, 204);
+    color:White;
+	
+	
+	}
+.R_imagen
+{
+	width: 309px;
+    height: 134px
+	
+	}
+
+
+.OFRECEMOS
+{
+	background:#EEF0E4;
+	line-height: 1em;
+    text-align: center;
+    font-size: 21px;
+    padding:5em 1em 0 5em;
+    display:block;
+	}
+.informacion
+{
+	background:#EEF0E4;
+	line-height: 1em;
+    text-align: center;
+    font-size: 21px;
+    padding:5em 1em 0 5em;
+    display:flex;
+}
+.texto_de_los_iconos{
+
+	color:#605E6E;
+	}
+.parrafo
+{
+	margin: 0;	
+}
+.lo_mejores
+{
+	margin:0 0 0 8em;
+	}
+.imagenes_C
+{
+	background:#CE2026;
+    display:flex;
+    padding:0 0 0  200px ;	
+    margin: 0px ;
+}
+.pie_de_paguina
+{
+	background:#2F2E2E;
+	display:flex;
+	color:White;
+	font-size:15px;
+}
+	
+.redes
+{
+	width:100px;
+	
+	
+	}
+.Quiteño
+{
+	margin: 0 5em 0 5em;
+	width:400px;
+	
+	}
+.lista
+{
+	display:none;
+    }
+    
+
+.lista_de_productos
+{
+    display: block;
+    width: 250px;
+    margin: 0 56px 0 5px;
+    font-size: 13px;
+    border: solid #242323;
+    background: #242323;
+	}
+.marca_de_la_paguina
+{
+	background:#242323;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	text-align:center;
+	color:#A0A09F;
+	
+	}
