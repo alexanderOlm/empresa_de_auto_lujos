@@ -2,10 +2,12 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: ROBOTO;
-    overflow-x: hidden;
+    font-family:Arial, Helvetica, sans-serif;
+    overflow:auto;    
     
 }
+
+
 /*para poner trasparente*/
 nav{
     z-index: 2;
@@ -30,12 +32,14 @@ nav .lojo_laterales{
     color: #fff;
     margin: 0px 400px 0 0;
 }
-nav ul{
+.menu-main ul{
     float: left;
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
+
+justify-content: first baseline;
 }
 
 nav ul li a {
@@ -47,6 +51,7 @@ nav ul li a {
     text-transform: uppercase;
    
 }
+
 header.sticky{
     padding: 5px 100px;
     background:black;
@@ -63,6 +68,7 @@ header.sticky ul li a{
 }
 nav ul li a:hover{
     background: rgba(0,0,0,.5);
+    cursor: pointer;
 }
 li{
     flex: auto;
@@ -104,17 +110,16 @@ overflow: hidden;
 }
 /*logo_medio*/
 .ARTICLE{
-    width: 40%;
-    height: 120px;
+    position: relative;
+    left: 40%;
+     top: -153px;
+    z-index: 1;
+    width: 20%;
+    height: 134px;
     margin: 0;
    
 }
-.log{
-    position: absolute;
-    left: 40%;
-    top: 995px;
-    z-index: 1;
-    }
+
 
 /*Product*/
 h1{
@@ -173,5 +178,28 @@ p{
     text-align: center;
     font-size: 20px;
     margin-left: -10px;
-    margin: 50px 0 0 0 ;
+    margin: 50px 0 60px 0 ;
+}
+.pie{
+    background: black;
+}
+footer{
+    display: flex;
+    color: white;
+    margin: 144px 0 0 0;
+    background:black;
+}
+.footer{
+    flex: auto
+}
+.footer1{
+    margin: 23px 0 0 40px;
+}
+.fa-facebook-square , .fa-whatsapp ,
+.fa-instagram{ 
+    margin-left: 50px;
+    font-size: 50px;
+}
+h2{
+    margin: 15px 0 20px 50px;
 }
